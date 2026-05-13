@@ -1,21 +1,12 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
+  "name": "tablero-colaborativo",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "start": "node server.js"
   },
   "dependencies": {
-    "@oxc-transform/binding-wasm32-wasi": "0.128.0",
-    "@oxc-parser/binding-wasm32-wasi": "0.128.0",
-    "@oxc-minify/binding-wasm32-wasi": "0.128.0",
-    "nuxt": "^3.21.4",
-    "vue": "^3.5.33",
-    "vue-router": "^5.0.6"
+    "express": "^5.0.0",
+    "socket.io": "^4.0.0"
   }
 }
-
